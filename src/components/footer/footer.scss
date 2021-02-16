@@ -1,0 +1,23 @@
+.footer {
+    height: auto;
+    max-width: 100%;
+    background-color: #333;
+    padding: 3rem;
+    color: white;
+
+    h2 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    .classDetails {
+        text-align: center;
+    }
+
+    .contact {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

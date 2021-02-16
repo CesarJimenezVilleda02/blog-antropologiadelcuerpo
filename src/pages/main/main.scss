@@ -1,0 +1,25 @@
+.main-container {
+    // margin-top: 3rem;
+
+    .image__clipath {
+        background-image: url('../../assests/images/main.jpg');
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        height: 85vh;
+        clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    }
+
+    h2 {
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        font-weight: 100;
+    }
+
+    .entradas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 25rem));
+        grid-gap: 6rem;
+        margin: 3rem 0;
+    }
+}

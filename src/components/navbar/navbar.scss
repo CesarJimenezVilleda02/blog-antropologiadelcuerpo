@@ -1,0 +1,101 @@
+$color-primary: #eb2f64;
+$color-primary-light: #ff507c;
+$color-primary-dark: #ba265d;
+
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+
+.nav {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+
+    background-color: $color-primary;
+    // background-color: #eb2f64;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+
+    .navigation-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 1rem;
+
+        li {
+            cursor: pointer;
+            margin-left: 2rem;
+            transition: all 0.2s ease-in;
+
+            &:first-child {
+                font-size: 1.5rem;
+            }
+
+            &:hover {
+                transform: scale(1.1) rotate(2deg);
+            }
+
+            &:last-child {
+                margin-left: auto;
+                margin-right: 2rem;
+
+                &:hover {
+                    transform: none;
+                }
+            }
+
+            & a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+    .container {
+        position: absolute;
+        right: 2rem;
+        padding-top: 1rem;
+        opacity: 0;
+        transform: translateY(-10rem);
+        transition: all 0.4s ease-in;
+        z-index: 3;
+
+        &__details {
+            display: flex;
+            flex-direction: column;
+            text-transform: none;
+            align-items: center;
+            padding: 1rem;
+            background-color: $color-primary-light;
+
+            span {
+                box-sizing: border-box;
+                width: 100%;
+                display: block;
+                padding: 1rem;
+                border: 3px solid $color-grey-light-4;
+                text-align: center;
+
+                &:first-child {
+                    margin-bottom: 0.5rem;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        &:hover {
+            transform: translateY(-0.65rem);
+            opacity: 1;
+        }
+    }
+}
