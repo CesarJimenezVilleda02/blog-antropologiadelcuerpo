@@ -16,8 +16,8 @@ const ArticleCard = (props) => {
             <div className='card__image' style={{ backgroundImage: `url(${imageUrl})` }}></div>
             <div className='card__info'>
                 <h1>{publicacion.title}</h1>
-                <h2>Entrada de bitácora {publicacion.number}</h2>
-                <p>{publicacion.content[1].split(' ').slice(0, 20).join(' ')}...</p>
+                <h2>Entrada semana {publicacion.number}</h2>
+                <p>{publicacion.content[0].split(' ').slice(0, 20).join(' ')}...</p>
                 <Link to={`/${publicacion.routeName}`}>
                     <div className='button'>Ver más</div>
                 </Link>

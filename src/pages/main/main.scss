@@ -22,7 +22,8 @@
 
     .entradas {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 25rem));
+        grid-template-columns: repeat(auto-fit, 22rem);
+        justify-content: center;
         grid-gap: 6rem;
         margin: 3rem 0;
 

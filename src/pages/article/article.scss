@@ -17,19 +17,33 @@
         div {
             padding: 0 1rem;
             background-color: #eb2f64;
+            font-size: 2rem;
+            max-width: 50%;
+
+            @media only screen and (max-width: 600px) {
+                max-width: 100%;
+                padding: 0 0;
+                font-size: 1.5rem;
+            }
+            @media only screen and (max-width: 400px) {
+                font-size: 1rem;
+            }
         }
 
         h1 {
             letter-spacing: 1rem;
-            font-size: 2rem;
+            font-size: 100%;
             font-weight: 100;
             text-transform: uppercase;
         }
 
         h2 {
             letter-spacing: 1rem;
-            font-size: 1.5rem;
+            font-size: 75%;
             font-weight: 100;
+            @media only screen and (max-width: 600px) {
+                letter-spacing: 0.7rem;
+            }
         }
     }
 
