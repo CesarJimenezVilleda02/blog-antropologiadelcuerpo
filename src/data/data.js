@@ -28,6 +28,20 @@ const data = [
             'https://images.unsplash.com/photo-1582464352488-3cb78587f57c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
         video__url: 'https://www.youtube.com/embed/39nmclf5DX0',
     },
+    {
+        number: '3',
+        title: 'El cuerpo como capital',
+        semana: '3',
+        routeName: 'cuerpo-como-capital',
+        content: [
+            'El tema de esta semana fue muy interesante, pues gracias a la lectura y a la clase pude comprender cómo en la sociedad de consumo en la que vivimos hemos convertido  en nuestro cuerpo en un objeto que podemos vender a través de ciertos símbolos. Esto me hizo sentir triste, pues ahora que tengo esta perspectiva me doy cuenta de cómo muchas personas a mi alrededor usan su cuerpo como un objeto que pueden intercambiar para obtener algo sin siquiera saberlo, sin embargo, no hay forma de evitar caer en estas prácticas por lo capitalizadas que se han vuelto nuestras vidas. Pienso que esta sensación se detonó en mi porque me di cuenta de que toda mi vida he sido impulsado por el sistema para caer en prácticas como la legitimación sanitaria, ya que siempre he pensado que un cuerpo escultural debe de ser mi objetivo y al no contar con uno he sentido que tengo menos valor. Gracias a esta clase me doy cuenta de que no tengo por qué mortificarme por no tener un cuerpo así. Esta sensación me ha incomodado al igual que en otras sesiones, sin embargo, pienso que esto es necesario pues estas verdades difíciles de asimilar expenden mi perspectiva de cómo está construida nuestra sociedad y qué es lo que puede impulsar a las personas a llevar a cabo ciertas prácticas corporales. Llegar a esta catarsis me ha hecho llegar a un lugar más estable en mi vida, pues ahora puedo limitar en qué medida las construcciones capitalistas definen mi vida.',
+            'La parte que más me hizo cuestionar mi vida fue el concepto de las tecnologías de género, pues crecí pensando que los hombres siempre debían de ser los protagonistas de la historia y que una mujer sólo servía para ser el interés amoroso del protagonista, pues gracias a mi alto consumo de medios como la televisión y el cine terminé adoptando esta narrativa en mi vida, pensando que era la única persona que importaba y que siempre obtendría a la chica. Esto al final fue un arma de doble filo, pues aunque tuve una buena infanta cuando empecé a engordar en primaria la vida me dió un golpe de humildad que me hizo darme cuenta de que mi vida no era lo que pensaba. ',
+            'Este tema me ha hecho preguntarme ¿Cómo puedo moldear mi punto de vista y dejar de ver a las personas por el capital que representa su cuerpo? ',
+        ],
+        img__url:
+            'https://images.unsplash.com/photo-1589717319952-e97c8bf7c52e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80',
+        video__url: 'https://www.youtube.com/embed/Kyw4FRWxi_I',
+    },
 ];
 
 export default data;
