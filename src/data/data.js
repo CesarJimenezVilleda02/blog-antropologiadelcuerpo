@@ -1,7 +1,7 @@
 const data = [
     {
         number: '1',
-        title: 'Prácticas coorporales',
+        title: 'Entrega 1 de la bitácora',
         semana: '1',
         routeName: 'practicas-coorporales',
         content: [
@@ -41,6 +41,19 @@ const data = [
         img__url:
             'https://images.unsplash.com/photo-1589717319952-e97c8bf7c52e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80',
         video__url: 'https://www.youtube.com/embed/Kyw4FRWxi_I',
+    },
+    {
+        number: '4',
+        title: 'Entrega 2 de la bitácora',
+        semana: '12',
+        routeName: 'violencias',
+        content: [
+            'A lo largo del trayecto que he recorrido en este módulo enfocado en las violencias me he dado cuenta de cómo existen muchos sistemas que evalúan constantemente mi valía en base a las características que poseo y así determinan si debo  ser oprimido o no. Este fue un periodo de descubrimiento para mí, pues pude darme cuenta de lo ignorante que había sido hasta ahora en cuanto a los privilegios que tenían y cómo estos habían hecho mi vida más fácil. Gracias a lo que aprendí sobre las interseccionalidades y cómo estas afectan a las personas me enfadé conmigo mismo por no haber podido ver estos sistemas de opresión antes e incluso haber participado en ellos, creo que esta emoción se detonó en mí por cómo me invadieron los recuerdos de las veces que había dejado que mis privilegios me cegaran y las ocasiones en las que había usado las intersecciones de otras personas para burlarme o tratarlas como personas menos dignas. Lo que me hizo sentir incómodo, pues me encontraba en un proceso en el que estaba deconstruyendo mi realidad. Creo que aunque esto me hizo sentir incómodo, fue algo necesario, pues ahora que conozco las implicaciones de las interseccionalidades puedo relacionarme de una forma más sana y empatizar más con las personas y su lucha. Dicho tema  fue crucial para entender  de violencias sociopolíticas y de capitalismo gore, pues considero que las interseccionalidades hacen a ciertas personas más propensas a caer en el capitalismo gore o de sufrir de violencias, como es el caso de las mujeres de Juárez, cuyos cuerpos sirvieron como necroempoderamiento para criminales. Aunque ya era consciente de las atrocidades cometidas en México, estos temas me hicieron entender el por qué se dan y en qué consisten, lo que fue vital para la elaboración de la primera evidencia de la materia. Del mismo modo, estos temas me hicieron sentir impotencia al conocer más sobre casos como el de Marisela Escobedo, pues pude ver lo mucho que las interseccionalidades te pueden afectar en este país, lo que me hizo sentir incómodo, pues reflexioné sobre lo mucho que nuestro cuerpo y origen pueden torcer cómo los demás nos perciben. Al final, pude llegar a no sólo entender el tema, sino que me he dado cuenta de que mucha más gente en México necesita saber sobre estos sistemas de opresión, así como de las violencias sociopolíticas que ocurren a nuestro alrededor y la forma en que se percibe el capitalismo en este país.',
+            `De los conceptos vistos durante el módulo de violencias, el que más me llamó la atención fué el de interseccionalidades y su contraste con los privilegios, puesto que este me permitió entender que muchas violencias van dirigidas a ciertos grupos marginados, pues de acuerdo a lo escrito por Javiera Cubillos en un artículo para la Universidad Complutense de Madrid llamado LA IMPORTANCIADE LA INTERSECCIONALIDADPARA LA INVESTIGACIÓN FEMINISTA en 2015, la “interseccionalidad política permite entender cómo las estrategias políticas que sólo se centran en una dimensión de desigualdad marginan de sus agendas a aquellos sujetos y/o grupos cuya situación de exclusión responde a la imbricación de diversos sistemas de opresión”.  Este concepto me ha hecho cuestionar lo fácil que ha sido mi vida al contar con privilegios como ser school smart y tener una tez blanca, pues me han permitido convivir con personas de la clase social alta y ser reconocido por ellas gracias a mi aspecto, lo que ha contrarrestado la intersección de pertenecer a la clase media.  Gracias a estos privilegios no he sido marginado y he tenido acceso a muchas oportunidades que no habría tenido al ser el objetivo de un sistema de opresión. Por esto, me he dado cuenta del gran mérito que tienen los logros de las personas que a pesar de pertenecer a estos grupos marginados han podido resistir y salir adelante.`,
+            'Gracias a estos temas, me quedan como preguntas para el bloque de  resistencias; ¿Cómo la gente en México es capaz de resistir ante estos sistemas de opresión? ¿Qué se tiene que hacer para que estos sistemas de opresión dejen de existir?',
+        ],
+        img__url:
+            'https://images.unsplash.com/photo-1595211084775-12166cd8222e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
     },
 ];
 

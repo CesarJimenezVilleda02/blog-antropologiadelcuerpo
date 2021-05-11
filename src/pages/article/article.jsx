@@ -16,11 +16,15 @@ const Article = (props) => {
             </div>
             <div className='article__paragraphs'>{paragraphs}</div>
             <div className='article__video'>
-                <iframe
-                    src={props.contenido.video__url}
-                    frameborder='0'
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                    allowfullscreen></iframe>
+                {props.contenido.video__url ? (
+                    <iframe
+                        src={props.contenido.video__url}
+                        frameborder='0'
+                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                        allowfullscreen></iframe>
+                ) : (
+                    <div></div>
+                )}
             </div>
         </div>
     );
