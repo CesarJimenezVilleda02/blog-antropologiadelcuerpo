@@ -6,7 +6,9 @@ const NavBar = () => {
     return (
         <div className='nav'>
             <ul className='navigation-links'>
-                <li>ANTROPOLOGÍA DEL CUERPO</li>
+                <li>
+                    <Link to='/'>Antropología del cuerpo</Link>
+                </li>
                 <li>
                     <Link to='/'>Entradas</Link>
                 </li>
